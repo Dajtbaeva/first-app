@@ -1,0 +1,15 @@
+// ng g c components/global-error --skip-tests
+import { Component, OnInit } from '@angular/core';
+import { ErrorService } from 'src/app/services/error.service';
+
+@Component({
+  selector: 'app-global-error',
+  templateUrl: './global-error.component.html',
+  styleUrls: ['./global-error.component.scss'],
+})
+export class GlobalErrorComponent implements OnInit {
+  constructor(public errorService: ErrorService) {}
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
+}

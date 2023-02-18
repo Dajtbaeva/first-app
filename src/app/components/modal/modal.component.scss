@@ -1,0 +1,18 @@
+#main {
+  background-color: rgba(0, 0, 0, 0.5); /* bg-black/50 in Tailwind */
+  position: fixed; /* fixed in Tailwind */
+  top: 0; /* top-0 in Tailwind */
+  right: 0; /* right-0 in Tailwind */
+  left: 0; /* left-0 in Tailwind */
+  bottom: 0;
+}
+#internal {
+  width: 500px; /* w-[500px] in Tailwind */
+  position: absolute; /* absolute in Tailwind */
+  top: 15px; /* top-15 in Tailwind */
+  border-radius: 0.25rem; /* rounded in Tailwind */
+  padding: 1.5rem; /* p-6 in Tailwind */
+  background-color: #fff; /* bg-white in Tailwind */
+  left: 50%; /* left-1/2 in Tailwind */
+  transform: translateX(-50%); /* -translate-x-1/2 in Tailwind */
+}
